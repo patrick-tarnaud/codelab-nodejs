@@ -1,0 +1,25 @@
+{
+	"name": "zenbox-codelab-nodejs",
+	"version": "1.0.0",
+	"description": "* Créer un fichier index.js * Le programme doit afficher `Hello World` à l'aide de la fonction `console.log` * Lancer la commande `node index.js`",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Zenika/zenbox-codelab-nodejs.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Zenika/zenbox-codelab-nodejs/issues"
+	},
+	"homepage": "https://github.com/Zenika/zenbox-codelab-nodejs#readme",
+	"dependencies": {
+		"chalk": "^2.4.1",
+		"express": "^4.16.4",
+		"nodemon": "^1.18.6"
+	}
+}
